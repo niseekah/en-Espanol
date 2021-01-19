@@ -13,6 +13,7 @@ class Controlled extends React.Component{
 		error: ''
 	    }
 	};
+
     }
 
     
@@ -21,6 +22,7 @@ class Controlled extends React.Component{
         // doesn't refresh the page
         event.preventDefault();
 
+
 	    // create a copy of state variables so we can build the error messages
 	    let state_values = this.state;
 	
@@ -28,6 +30,7 @@ class Controlled extends React.Component{
 	    // if error is an empty string '', then that means there's no error
 	
 	    //state_values.first_name.error = validate_first_name(this.state.first_name.value);
+
         //state_values.last_name.error =  validate_last_name(this.state.last_name.value);
         
 
@@ -49,6 +52,7 @@ class Controlled extends React.Component{
 	    // so proceed!
 
 
+
         // 
         alert('translating.....');
         // send the text that the user send to the google api
@@ -56,6 +60,7 @@ class Controlled extends React.Component{
 
     update_field(which, event)
     {
+
 	    // do a convenience error check
         if(event.target.value.length < 20)
         {
@@ -106,3 +111,4 @@ class Controlled extends React.Component{
 }
 
 export default Controlled;
+
