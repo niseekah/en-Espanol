@@ -40,7 +40,7 @@ class AvatarOne extends React.Component
                 <Typography>The content of the Popover.</Typography>
               </Popover>
             <Box component="fieldset" mb={3} borderColor="transparent">
-                <Typography component="legend" style={{color: "white"}} >The Suicide Squad</Typography>
+                <Typography component="legend" style={{color: "black"}} >The Suicide Squad</Typography>
                 <Rating name="read-only" value={5} readOnly />
               </Box>
 
@@ -61,7 +61,7 @@ class AvatarOne extends React.Component
                 <Typography>The content of the Popover.</Typography>
               </Popover>
             <Box component="fieldset" mb={3} borderColor="transparent">
-                <Typography component="legend" style={{color: "white"}}>In the Heights</Typography>
+                <Typography component="legend" style={{color: "black"}}>In the Heights</Typography>
                 <Rating name="read-only" value={4} readOnly />
               </Box>
 
@@ -82,7 +82,7 @@ class AvatarOne extends React.Component
                 <Typography>The content of the Popover.</Typography>
               </Popover>
             <Box component="fieldset" mb={3} borderColor="transparent">
-                <Typography component="legend" style={{color: "white"}} >Spiral</Typography>
+                <Typography component="legend" style={{color: "black"}} >Spiral</Typography>
                 <Rating name="read-only" value={3} readOnly />
               </Box>
             </>

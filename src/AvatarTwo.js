@@ -40,7 +40,7 @@ class AvatarTwo extends React.Component
                 <Typography>The content of the Popover.</Typography>
               </Popover>
             <Box component="fieldset" mb={3} borderColor="transparent">
-                <Typography component="legend" style={{color: "white"}} >Nobody</Typography>
+                <Typography component="legend" style={{color: "black"}} >Nobody</Typography>
                 <Rating name="read-only" value={3} readOnly />
               </Box>
             <Avatar alt="Travis Howard" src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/F9_poster.jpg/220px-F9_poster.jpg" style={{width:"200px", height:"200px"}} onClick={handleClick}/>
@@ -60,7 +60,7 @@ class AvatarTwo extends React.Component
                 <Typography>The content of the Popover.</Typography>
               </Popover>
             <Box component="fieldset" mb={3} borderColor="transparent">
-                <Typography component="legend" style={{color: "white"}}>Fast and Furious 9</Typography>
+                <Typography component="legend" style={{color: "black"}}>Fast and Furious 9</Typography>
                 <Rating name="read-only" value={5} readOnly />
               </Box>
             <Avatar alt="Cindy Baker" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRwTLG9lhb7OYVU9SW9W465xpeA6aVAhY6ce3OgtfB3S6TwULWb" style={{width:"200px", height:"200px"}} onClick={handleClick}/>
@@ -80,7 +80,7 @@ class AvatarTwo extends React.Component
                 <Typography>The content of the Popover.</Typography>
               </Popover>
             <Box component="fieldset" mb={3} borderColor="transparent">
-                <Typography component="legend" style={{color: "white"}} >The Conjuring 3</Typography>
+                <Typography component="legend" style={{color: "black"}} >The Conjuring 3</Typography>
                 <Rating name="read-only" value={4} readOnly />
               </Box>
             </>
