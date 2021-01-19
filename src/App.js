@@ -77,7 +77,6 @@ function App() {
       
       <div>
       <AccordionStyle></AccordionStyle>
-      <Espanol></Espanol>
       </div>
     // {/*Rosanne ==============================================================================================================================*/}
     //     <AppbarStyle></AppbarStyle>

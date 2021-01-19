@@ -11,7 +11,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import AccordionStyle from './AccordionStyle';
 import AvatarTwo from './AvatarTwo';
-import {Link} from "react-router-dom"
+import Espanol from './Espanol';
+import { Link } from "react-router-dom"
 
 ReactDOM.render(
   <React.StrictMode>
@@ -19,12 +20,15 @@ ReactDOM.render(
       <App />
 
       <Switch>
-          <Route path="/AvatarOne">
-              <AvatarOne />
-          </Route>
-           <Route path="/AvatarTwo">
-			      <AvatarTwo /> 
-		    </Route>
+        <Route path="/AvatarOne">
+          <AvatarOne />
+        </Route>
+        <Route path="/AvatarTwo">
+          <AvatarTwo />
+        </Route>
+        <Route path="/Espanol">
+          <Espanol />
+        </Route>
       </Switch>
     </Router>
   </React.StrictMode>,
