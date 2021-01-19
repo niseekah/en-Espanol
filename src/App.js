@@ -7,6 +7,7 @@ import AccordionStyle from "./AccordionStyle";
 import AppbarStyle from "./AppbarStyle";
 import CustomCard from "./CustomCard";
 import CustomFormGroup from "./CustomFormGroup";
+import Espanol from "./Espanol"
 
 import React from "react";
 import clsx from "clsx";
@@ -74,8 +75,10 @@ function App() {
 
     return (
       
-      
+      <div>
       <AccordionStyle></AccordionStyle>
+      <Espanol></Espanol>
+      </div>
     // {/*Rosanne ==============================================================================================================================*/}
     //     <AppbarStyle></AppbarStyle>
 
